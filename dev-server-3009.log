@@ -1,0 +1,48 @@
+
+> nikoo-homes-9@0.1.0 dev
+> next dev --port 3009
+
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3009
+- Network:       http://10.250.200.136:3009
+✓ Ready in 1403ms
+✓ Running next.config.ts took 97ms
+
+✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable.
+ GET / 200 in 2.7s (next.js: 2.1s, application-code: 591ms)
+ GET / 200 in 1196ms (next.js: 152ms, application-code: 1044ms)
+ GET / 200 in 344ms (next.js: 22ms, application-code: 322ms)
+✓ Compiled in 1102ms
+ GET / 200 in 297ms (next.js: 65ms, application-code: 232ms)
+✓ Compiled in 496ms
+ GET / 200 in 398ms (next.js: 97ms, application-code: 302ms)
+ GET / 200 in 321ms (next.js: 18ms, application-code: 303ms)
+ GET / 200 in 269ms (next.js: 20ms, application-code: 249ms)
+ GET / 200 in 894ms (next.js: 682ms, application-code: 212ms)
+✓ Compiled in 3.7s
+ GET / 200 in 359ms (next.js: 77ms, application-code: 282ms)
+ GET / 200 in 223ms (next.js: 45ms, application-code: 179ms)
+ GET / 200 in 186ms (next.js: 39ms, application-code: 147ms)
+✓ Compiled in 429ms
+ GET / 200 in 366ms (next.js: 76ms, application-code: 291ms)
+ GET / 200 in 681ms (next.js: 10ms, application-code: 672ms)
+ GET / 200 in 362ms (next.js: 16ms, application-code: 346ms)
+ GET / 200 in 246ms (next.js: 16ms, application-code: 230ms)
+✓ Compiled in 9.3s
+ GET / 200 in 270ms (next.js: 69ms, application-code: 202ms)
+ GET / 200 in 341ms (next.js: 62ms, application-code: 279ms)
+ GET / 200 in 224ms (next.js: 18ms, application-code: 206ms)
+ GET / 200 in 188ms (next.js: 14ms, application-code: 175ms)
+ GET / 200 in 123ms (next.js: 31ms, application-code: 92ms)
+✓ Compiled in 226ms
+ GET / 200 in 222ms (next.js: 32ms, application-code: 189ms)
+ GET / 200 in 122ms (next.js: 23ms, application-code: 99ms)
+✓ Compiled in 298ms
+ GET / 200 in 103ms (next.js: 22ms, application-code: 81ms)
+✓ Compiled in 232ms
+ GET / 200 in 238ms (next.js: 42ms, application-code: 196ms)
+✓ Compiled in 821ms
+✓ Compiled in 539ms
+ GET / 200 in 441ms (next.js: 21ms, application-code: 420ms)
+ GET / 200 in 318ms (next.js: 16ms, application-code: 302ms)
+✓ Compiled in 22s

@@ -1,0 +1,1578 @@
+⚠ Slow filesystem detected. The benchmark took 273ms. If \\?\C:\Users\User\Desktop\nikoo9\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+  [90m 6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m 7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m { [33mPlanKit[0m } [36mfrom[0m [32m"@/components/sections/PlanKit"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+  [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+  [90m 9 |[0m [36mimport[0m { [33mLocation[0m } [36mfrom[0m [32m"@/components/sections/Location"[0m;
+  [90m10 |[0m [36mimport[0m { [33mFaq[0m } [36mfrom[0m [32m"@/components/sections/Faq"[0m;
+[31m[1m>[0m [90m11 |[0m [36mimport[0m { [33mWhyVision[0m } [36mfrom[0m [32m"@/components/sections/WhyVision"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m [36mimport[0m { [33mFooter[0m } [36mfrom[0m [32m"@/components/layout/Footer"[0m;
+  [90m13 |[0m
+  [90m14 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHomePage[0m() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  [90m1 |[0m [36mimport[0m { [33mMobileCtaBar[0m } [36mfrom[0m [32m"@/components/layout/MobileCtaBar"[0m;
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  [90m2 |[0m [36mimport[0m { [33mSiteHeader[0m } [36mfrom[0m [32m"@/components/layout/SiteHeader"[0m;
+  [90m3 |[0m [36mimport[0m { [33mClarityDiscover[0m } [36mfrom[0m [32m"@/components/sections/ClarityDiscover"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFinalConversion[0m } [36mfrom[0m [32m"@/components/sections/FinalConversion"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mHero[0m } [36mfrom[0m [32m"@/components/sections/Hero"[0m;
+  [90m6 |[0m [36mimport[0m { [33mResidences[0m } [36mfrom[0m [32m"@/components/sections/Residences"[0m;
+  [90m7 |[0m [36mimport[0m { [33mAmenities[0m } [36mfrom[0m [32m"@/components/sections/Amenities"[0m;
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  1 | import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+> 3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+  3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+> 4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+  7 | import { Amenities } from "@/components/sections/Amenities";
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+   9 | import { Location } from "@/components/sections/Location";
+  10 | import { Faq } from "@/components/sections/Faq";
+> 11 | import { WhyVision } from "@/components/sections/WhyVision";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import { Footer } from "@/components/layout/Footer";
+  13 |
+  14 | export default function HomePage() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  1 | import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+> 3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+  3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+> 4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+  7 | import { Amenities } from "@/components/sections/Amenities";
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:8:1
+Error: Module not found: Can't resolve '@/components/sections/PlanKit'
+   6 | import { Residences } from "@/components/sections/Residences";
+   7 | import { Amenities } from "@/components/sections/Amenities";
+>  8 | import { PlanKit } from "@/components/sections/PlanKit";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Location } from "@/components/sections/Location";
+  10 | import { Faq } from "@/components/sections/Faq";
+  11 | import { WhyVision } from "@/components/sections/WhyVision";
+
+Import map: aliased to relative './src/components/sections/PlanKit' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+   9 | import { Location } from "@/components/sections/Location";
+  10 | import { Faq } from "@/components/sections/Faq";
+> 11 | import { WhyVision } from "@/components/sections/WhyVision";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import { Footer } from "@/components/layout/Footer";
+  13 |
+  14 | export default function HomePage() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  1 | import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+> 3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+  3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+> 4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+  7 | import { Amenities } from "@/components/sections/Amenities";
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:11:1
+Error: Module not found: Can't resolve '@/components/sections/WhyVision'
+   9 | import { Location } from "@/components/sections/Location";
+  10 | import { Faq } from "@/components/sections/Faq";
+> 11 | import { WhyVision } from "@/components/sections/WhyVision";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import { Footer } from "@/components/layout/Footer";
+  13 |
+  14 | export default function HomePage() {
+
+Import map: aliased to relative './src/components/sections/WhyVision' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/sections/ClarityDiscover'
+  1 | import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+> 3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+
+Import map: aliased to relative './src/components/sections/ClarityDiscover' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+  3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+> 4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+  7 | import { Amenities } from "@/components/sections/Amenities";
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/FinalConversion'
+  2 | import { SiteHeader } from "@/components/layout/SiteHeader";
+  3 | import { ClarityDiscover } from "@/components/sections/ClarityDiscover";
+> 4 | import { FinalConversion } from "@/components/sections/FinalConversion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Hero } from "@/components/sections/Hero";
+  6 | import { Residences } from "@/components/sections/Residences";
+  7 | import { Amenities } from "@/components/sections/Amenities";
+
+Import map: aliased to relative './src/components/sections/FinalConversion' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+Turbopack build encountered 1 error:
+./src/app
+Error: Could not find the Next.js package (next/package.json)
+Resolved from: C:\Users\User\Desktop\nikoo9\src\app
+Filesystem root used for resolution: C:\Users\User\Desktop\nikoo9
+
+Possible causes:
+  - node_modules is being reorganized by a concurrent install (e.g. pnpm adding a package with a `next` peer dependency). This is transient and should clear once the install completes.
+  - node_modules/next was removed, renamed, or has a broken symlink.
+  - The workspace root is incorrect — see turbopack.root in the Next.js config docs for how to configure it.
+  - In a monorepo, the Next.js package may only exist in a directory above the closest directory containing a package manager lockfile. The workspace root is detected by locating the nearest package manager lockfile.
+  - Next.js is installed globally rather than as a project dependency. This is not supported; install it locally.
+
+Note: To ensure a hermetic build and a portable cache, files outside of the workspace root are not compiled.
+
+https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory
+
+
+[browser] ./src/app
+Error: Could not find the Next.js package (next/package.json)
+Resolved from: C:\Users\User\Desktop\nikoo9\src\app
+Filesystem root used for resolution: C:\Users\User\Desktop\nikoo9
+
+Possible causes:
+  - node_modules is being reorganized by a concurrent install (e.g. pnpm adding a package with a `next` peer dependency). This is transient and should clear once the install completes.
+  - node_modules/next was removed, renamed, or has a broken symlink.
+  - The workspace root is incorrect — see turbopack.root in the Next.js config docs for how to configure it.
+  - In a monorepo, the Next.js package may only exist in a directory above the closest directory containing a package manager lockfile. The workspace root is detected by locating the nearest package manager lockfile.
+  - Next.js is installed globally rather than as a project dependency. This is not supported; install it locally.
+
+Note: To ensure a hermetic build and a portable cache, files outside of the workspace root are not compiled.
+
+https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory 
+[browser] ./src/app
+Error: Could not find the Next.js package (next/package.json)
+Resolved from: C:\Users\User\Desktop\nikoo9\src\app
+Filesystem root used for resolution: C:\Users\User\Desktop\nikoo9
+
+Possible causes:
+  - node_modules is being reorganized by a concurrent install (e.g. pnpm adding a package with a `next` peer dependency). This is transient and should clear once the install completes.
+  - node_modules/next was removed, renamed, or has a broken symlink.
+  - The workspace root is incorrect — see turbopack.root in the Next.js config docs for how to configure it.
+  - In a monorepo, the Next.js package may only exist in a directory above the closest directory containing a package manager lockfile. The workspace root is detected by locating the nearest package manager lockfile.
+  - Next.js is installed globally rather than as a project dependency. This is not supported; install it locally.
+
+Note: To ensure a hermetic build and a portable cache, files outside of the workspace root are not compiled.
+
+https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory 
+[browser] ./src/app
+Error: Could not find the Next.js package (next/package.json)
+Resolved from: C:\Users\User\Desktop\nikoo9\src\app
+Filesystem root used for resolution: C:\Users\User\Desktop\nikoo9
+
+Possible causes:
+  - node_modules is being reorganized by a concurrent install (e.g. pnpm adding a package with a `next` peer dependency). This is transient and should clear once the install completes.
+  - node_modules/next was removed, renamed, or has a broken symlink.
+  - The workspace root is incorrect — see turbopack.root in the Next.js config docs for how to configure it.
+  - In a monorepo, the Next.js package may only exist in a directory above the closest directory containing a package manager lockfile. The workspace root is detected by locating the nearest package manager lockfile.
+  - Next.js is installed globally rather than as a project dependency. This is not supported; install it locally.
+
+Note: To ensure a hermetic build and a portable cache, files outside of the workspace root are not compiled.
+
+https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory 
