@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Leaf, Trophy, UsersRound, Waves, type LucideIcon } from "lucide-react";
+import { ArrowUpRight, Leaf, Trophy, UsersRound, Waves, type LucideIcon } from "lucide-react";
 import { useState } from "react";
 import { LeadTrigger } from "@/components/forms/LeadCaptureProvider";
 import { ProjectMedia } from "@/components/ui/ProjectMedia";
@@ -70,12 +70,18 @@ export function AmenitiesExplorer() {
             <h3>{activeGroup.title}</h3>
             <p>{activeGroup.description}</p>
             <ul>
-              {activeGroup.amenities.map((amenity, index) => (
-                <li key={amenity}><span>{String(index + 1).padStart(2, "0")}</span>{amenity}</li>
-              ))}
+              {activeGroup.amenities.map((amenity) => {
+                const Icon = amenityIcons[activeGroup.id] ?? Leaf;
+                return (
+                  <li key={amenity}>
+                    <span aria-hidden="true"><Icon size={15} strokeWidth={1.8} /></span>
+                    {amenity}
+                  </li>
+                );
+              })}
             </ul>
             <LeadTrigger className="amenity-text-cta" intent="Get complete amenity details">
-              <span>Request complete amenity details</span><span aria-hidden="true">↗</span>
+              <span>Request amenity details</span><ArrowUpRight size={15} aria-hidden="true" />
             </LeadTrigger>
           </div>
         </motion.div>

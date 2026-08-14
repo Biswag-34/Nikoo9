@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowUpRight, Check } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { siteContent } from "@/data/site-content";
 
@@ -14,7 +15,7 @@ export function LeadForm({ title = "Get the latest project details", compact = f
   if (submitted) {
     return (
       <div className="form-success" role="status">
-        <span aria-hidden="true">✓</span>
+        <span aria-hidden="true"><Check size={20} strokeWidth={2.2} /></span>
         <h2>Thank you</h2>
         <p>Demo submission validated successfully. Lead delivery will be connected before the website goes live.</p>
       </div>
@@ -43,7 +44,9 @@ export function LeadForm({ title = "Get the latest project details", compact = f
           {siteContent.configurations.map((configuration) => <option key={configuration} value={configuration}>{configuration}</option>)}
         </select>
       </label>
-      <button className="button button--primary lead-form__submit" type="submit"><span>Send details on WhatsApp</span><span aria-hidden="true">↗</span></button>
+      <button className="button button--primary lead-form__submit" type="submit">
+        <span>Send details on WhatsApp</span><ArrowUpRight size={15} aria-hidden="true" />
+      </button>
     </form>
   );
 }

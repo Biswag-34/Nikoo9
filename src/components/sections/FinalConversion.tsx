@@ -1,3 +1,4 @@
+import { CheckCircle2 } from "lucide-react";
 import { LeadForm } from "@/components/forms/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Container } from "@/components/ui/Container";
@@ -9,13 +10,13 @@ export function FinalConversion() {
       <Container className="final-conversion__layout">
         <Reveal className="final-conversion__copy">
           <p className="eyebrow">Project brochure</p>
-          <h2>Get the current project information and take the next step.</h2>
+          <h2>Get plans and pricing.</h2>
           <p>
             Register once to request the brochure, current plans, pricing, availability and site-visit assistance.
           </p>
           <ul>
             {siteContent.planKit.brochureIncludes.map((item) => (
-              <li key={item}><span aria-hidden="true">✓</span>{item}</li>
+              <li key={item}><span aria-hidden="true"><CheckCircle2 size={15} strokeWidth={1.9} /></span>{item}</li>
             ))}
           </ul>
           <div className="final-conversion__proof">

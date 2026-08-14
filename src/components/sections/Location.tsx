@@ -9,12 +9,11 @@ export function Location() {
         <div className="location-heading">
           <Reveal>
             <p className="eyebrow">The location</p>
-            <h2 className="section-title">At the centre of North Bengaluru’s next working geography.</h2>
+            <h2 className="section-title">Connected to North Bengaluru.</h2>
           </Reveal>
           <Reveal delay={0.08}>
             <p>
-              Located at Huvinayakanahalli on KIADB Hardware Park Main Road, the project is positioned
-              within the Aerospace Park micro-market. Only currently listed access distances are shown.
+              The Huvinayakanahalli address places the project within the Aerospace Park micro-market.
             </p>
           </Reveal>
         </div>

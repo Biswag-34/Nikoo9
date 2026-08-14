@@ -9,8 +9,8 @@ export function Faq() {
         <div className="faq-layout">
           <Reveal className="faq-heading">
             <p className="eyebrow">Frequently asked questions</p>
-            <h2 className="section-title">The important details, answered clearly.</h2>
-            <p>Project information may evolve. Request the latest documents before making a purchase decision.</p>
+            <h2 className="section-title">Key project questions.</h2>
+            <p>Project information may evolve. Request the latest documents before buying.</p>
           </Reveal>
           <Reveal delay={0.08}><FaqAccordion /></Reveal>
         </div>

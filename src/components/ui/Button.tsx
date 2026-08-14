@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import type { AnchorHTMLAttributes, ReactNode } from "react";
 
 type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
@@ -16,7 +17,7 @@ export function Button({
   return (
     <a className={`button button--${variant} button--${size} ${className}`.trim()} {...props}>
       <span>{children}</span>
-      <span aria-hidden="true">↗</span>
+      <ArrowUpRight size={15} aria-hidden="true" />
     </a>
   );
 }

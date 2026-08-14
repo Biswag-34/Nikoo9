@@ -9,10 +9,9 @@ export function Amenities() {
         <div className="amenities-heading">
           <Reveal className="section-copy-block">
             <p className="eyebrow">Everyday amenities</p>
-            <h2 className="section-title">Designed for movement, pause and belonging.</h2>
+            <h2 className="section-title">Amenities for daily life.</h2>
             <p>
-              Browse the amenity experience as a tight editorial module: visual mood on the left,
-              category controls and the selected lifestyle story on the right.
+              Explore wellness, sport, family and landscape experiences through a focused visual module.
             </p>
           </Reveal>
         </div>

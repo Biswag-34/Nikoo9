@@ -1,10 +1,17 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { ArrowUpRight, MapPinned, Navigation, Presentation, Route, type LucideIcon } from "lucide-react";
 import { useState } from "react";
 import { LeadTrigger } from "@/components/forms/LeadCaptureProvider";
 import { ProjectMedia } from "@/components/ui/ProjectMedia";
 import { siteContent } from "@/data/site-content";
+
+const pointIcons: Record<string, LucideIcon[]> = {
+  access: [Route, Navigation, MapPinned],
+  context: [Route, MapPinned, Navigation],
+  visit: [MapPinned, Presentation, Navigation],
+};
 
 export function LocationExplorer() {
   const [activeId, setActiveId] = useState<string>(siteContent.location.groups[0].id);
@@ -18,7 +25,7 @@ export function LocationExplorer() {
           className="location-map__media"
           src="/images/location/nikoo-9-location-schematic.svg"
           alt="Schematic showing Nikoo Homes 9 near New Airport Road, Budigere Main Road and Bagalur"
-          disclaimer="Verified-distance schematic · not to scale"
+          disclaimer="Verified-distance schematic - not to scale"
         />
         <div className="location-map__pin" aria-hidden="true"><span /></div>
         <div className="location-map__address">
@@ -59,18 +66,24 @@ export function LocationExplorer() {
             <h3>{activeGroup.title}</h3>
             <p>{activeGroup.description}</p>
             <div className="location-points">
-              {activeGroup.points.map((point) => (
-                <article key={point.name}>
-                  <div><strong>{point.name}</strong><span>{point.note}</span></div>
-                  <b>{point.value}</b>
-                </article>
-              ))}
+              {activeGroup.points.map((point, index) => {
+                const Icon = pointIcons[activeGroup.id]?.[index] ?? MapPinned;
+                return (
+                  <article key={point.name}>
+                    <span className="location-point-icon" aria-hidden="true">
+                      <Icon size={15} strokeWidth={1.8} />
+                    </span>
+                    <div><strong>{point.name}</strong><span>{point.note}</span></div>
+                    <b>{point.value}</b>
+                  </article>
+                );
+              })}
             </div>
           </motion.div>
         </AnimatePresence>
 
         <LeadTrigger className="button button--primary location-cta" intent="Schedule a free project site visit">
-          <span>Schedule a free site visit</span><span aria-hidden="true">↗</span>
+          <span>Schedule site visit</span><ArrowUpRight size={15} aria-hidden="true" />
         </LeadTrigger>
       </div>
     </div>

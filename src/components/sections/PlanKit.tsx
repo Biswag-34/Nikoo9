@@ -18,11 +18,16 @@ export function PlanKit() {
 
         <div className="plan-kit__visual-grid">
           <Reveal className="plan-kit__media-wrap" delay={0.1}>
-            <PlaceholderMedia className="plan-kit__media" label="Approved master plan · Coming soon" ratio="16 / 10" />
-            <span className="plan-kit__media-label">Master plan · Coming soon</span>
+            <PlaceholderMedia className="plan-kit__media" label="Approved master plan - Coming soon" ratio="16 / 10" />
+            <span className="plan-kit__media-label">Master plan - Coming soon</span>
           </Reveal>
           <Reveal className="plan-kit__facts" delay={0.16}>
-            {planKit.facts.map((fact) => <article key={fact.label}><strong>{fact.value}</strong><span>{fact.label}</span></article>)}
+            {planKit.facts.map((fact) => (
+              <article key={fact.label}>
+                <strong>{fact.value}</strong>
+                <span>{fact.label}</span>
+              </article>
+            ))}
           </Reveal>
         </div>
       </Container>

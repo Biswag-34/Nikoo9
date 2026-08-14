@@ -1,3 +1,4 @@
+import { ArrowUp } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { siteContent } from "@/data/site-content";
 
@@ -18,7 +19,10 @@ export function Footer() {
           amenities, pricing, inventory, images and timelines are indicative and may change. Please verify all
           information against current project and regulatory documents before making a booking decision.
         </p>
-        <div className="footer-bottom"><span>© 2026 Nikoo Homes 9</span><a href="#overview">Back to top ↑</a></div>
+        <div className="footer-bottom">
+          <span>Copyright 2026 Nikoo Homes 9</span>
+          <a href="#overview">Back to top <ArrowUp size={13} aria-hidden="true" /></a>
+        </div>
       </Container>
     </footer>
   );

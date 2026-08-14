@@ -19,10 +19,10 @@ export function WhyVision() {
       <Container>
         <Reveal className="why-vision__intro">
           <p className="eyebrow">Why Nikoo Homes 9</p>
-          <h2 className="section-title">A clearer way to choose a North Bengaluru home.</h2>
+          <h2 className="section-title">Why choose Nikoo Homes 9</h2>
           <p>
-            The project is built around usable home choices, an airport-side growth corridor,
-            neighbourhood-scale planning and daily-life amenities.
+            Usable home choices, an airport-side corridor, neighbourhood-scale planning and
+            daily-life amenities are presented in a quick, scannable way.
           </p>
         </Reveal>
 
@@ -35,6 +35,7 @@ export function WhyVision() {
                 <div>
                   <h3>{usp.title}</h3>
                   <p>{usp.description}</p>
+                  <strong>{usp.proof}</strong>
                 </div>
               </Reveal>
             );

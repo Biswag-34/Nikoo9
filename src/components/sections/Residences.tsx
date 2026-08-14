@@ -9,10 +9,9 @@ export function Residences() {
         <div className="residences-heading">
           <Reveal className="section-copy-block">
             <p className="eyebrow">The residences</p>
-            <h2 className="section-title">A home for every chapter of life.</h2>
+            <h2 className="section-title">Choose your home format.</h2>
             <p>
-              Compare the available home formats in one compact view. Choose a configuration to see
-              the listed areas, plan status and enquiry action without losing the floor-plan context.
+              Compare available configurations, listed areas and floor-plan actions in one compact view.
             </p>
           </Reveal>
         </div>

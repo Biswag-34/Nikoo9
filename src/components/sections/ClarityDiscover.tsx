@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { LeadTrigger } from "@/components/forms/LeadCaptureProvider";
 import { Reveal } from "@/components/motion/Reveal";
 import { Container } from "@/components/ui/Container";
@@ -8,17 +9,17 @@ export function ClarityDiscover() {
       <Container className="clarity-discover__layout">
         <Reveal className="clarity-discover__copy">
           <p className="eyebrow">Explore with clarity</p>
-          <h2 className="section-title">Current price sheet, available homes and project guidance.</h2>
+          <h2 className="section-title">Get price, plans and guidance.</h2>
           <p>
-            Get a focused project pack with the latest cost sheet, configuration availability,
-            floor-plan support and a guided overview of Nikoo Homes 9.
+            Get the latest cost sheet, configuration availability, floor-plan support and
+            a guided overview of Nikoo Homes 9.
           </p>
         </Reveal>
 
         <Reveal className="clarity-discover__cta" delay={0.08}>
           <p>Project information pack</p>
           <LeadTrigger className="button button--primary" intent="Get the Nikoo Homes 9 project information pack">
-            <span>Request project pack</span><span aria-hidden="true">↗</span>
+            <span>Request project pack</span><ArrowUpRight size={15} aria-hidden="true" />
           </LeadTrigger>
         </Reveal>
       </Container>

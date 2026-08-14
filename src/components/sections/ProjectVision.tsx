@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { LeadTrigger } from "@/components/forms/LeadCaptureProvider";
 import { Reveal } from "@/components/motion/Reveal";
 import { Container } from "@/components/ui/Container";
@@ -41,9 +42,9 @@ export function ProjectVision() {
         </div>
 
         <Reveal className="brand-story__cta" delay={0.1}>
-          <div><p className="eyebrow">Discover Nikoo 9</p><h3>See how the complete project comes together around the way you want to live.</h3></div>
+          <div><p className="eyebrow">Discover Nikoo 9</p><h3>See how the project comes together.</h3></div>
           <LeadTrigger className="button button--primary" intent="Get complete Nikoo Homes 9 project details">
-            <span>Get project details</span><span aria-hidden="true">↗</span>
+            <span>Get project details</span><ArrowUpRight size={15} aria-hidden="true" />
           </LeadTrigger>
         </Reveal>
       </Container>

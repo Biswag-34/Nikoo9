@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
+import { X } from "lucide-react";
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { LeadForm } from "./LeadForm";
 
@@ -23,7 +24,9 @@ export function LeadCaptureProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   useEffect(() => {
@@ -39,10 +42,26 @@ export function LeadCaptureProvider({ children }: { children: ReactNode }) {
       {children}
       <AnimatePresence>
         {isOpen ? (
-          <motion.div className="lead-modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} role="dialog" aria-modal="true" aria-labelledby="lead-modal-title">
+          <motion.div
+            className="lead-modal"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="lead-modal-title"
+          >
             <button className="lead-modal__backdrop" aria-label="Close enquiry form" onClick={closeLeadForm} />
-            <motion.div className="lead-modal__sheet" initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 40, opacity: 0 }} transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}>
-              <button className="lead-modal__close" onClick={closeLeadForm} aria-label="Close enquiry form" autoFocus>×</button>
+            <motion.div
+              className="lead-modal__sheet"
+              initial={{ y: 40, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 40, opacity: 0 }}
+              transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <button className="lead-modal__close" onClick={closeLeadForm} aria-label="Close enquiry form" autoFocus>
+                <X size={18} aria-hidden="true" />
+              </button>
               <LeadForm title={intent} compact />
             </motion.div>
           </motion.div>

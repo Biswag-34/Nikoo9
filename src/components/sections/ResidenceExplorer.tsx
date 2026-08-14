@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { ArrowUpRight } from "lucide-react";
 import { useState } from "react";
 import { LeadTrigger } from "@/components/forms/LeadCaptureProvider";
 import { PlaceholderMedia } from "@/components/ui/PlaceholderMedia";
@@ -9,7 +10,8 @@ import { siteContent } from "@/data/site-content";
 export function ResidenceExplorer() {
   const [activeId, setActiveId] = useState<string>(siteContent.residences[0].id);
   const reduceMotion = useReducedMotion();
-  const activeResidence = siteContent.residences.find((residence) => residence.id === activeId) ?? siteContent.residences[0];
+  const activeResidence =
+    siteContent.residences.find((residence) => residence.id === activeId) ?? siteContent.residences[0];
 
   return (
     <div className="residence-explorer">
@@ -24,7 +26,11 @@ export function ResidenceExplorer() {
           exit={reduceMotion ? undefined : { opacity: 0, y: -8 }}
           transition={{ duration: 0.38, ease: [0.22, 1, 0.36, 1] }}
         >
-          <PlaceholderMedia className="residence-panel__media" label={`${activeResidence.name} floor plan · Coming soon`} ratio="4 / 3" />
+          <PlaceholderMedia
+            className="residence-panel__media"
+            label={`${activeResidence.name} floor plan - Coming soon`}
+            ratio="4 / 3"
+          />
 
           <div className="residence-panel__content">
             <div className="residence-tabs" role="tablist" aria-label="Choose a home configuration">
@@ -54,7 +60,7 @@ export function ResidenceExplorer() {
             </dl>
 
             <LeadTrigger className="button button--primary" intent={`Get ${activeResidence.name} floor plan`}>
-              <span>Get this floor plan</span><span aria-hidden="true">↗</span>
+              <span>Get floor plan</span><ArrowUpRight size={15} aria-hidden="true" />
             </LeadTrigger>
           </div>
         </motion.div>

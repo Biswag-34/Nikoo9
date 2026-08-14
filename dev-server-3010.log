@@ -1,0 +1,14 @@
+
+> nikoo-homes-9@0.1.0 dev
+> next dev -p 3010
+
+▲ Next.js 16.3.1 (Turbopack)
+- Local:         http://localhost:3010
+- Network:       http://10.250.200.136:3010
+✓ Ready in 3.1s
+✓ Running next.config.ts took 163ms
+
+○ Compiling / ...
+ GET / 200 in 372ms (next.js: 54ms, application-code: 317ms)
+ GET / 200 in 394ms (next.js: 24ms, application-code: 370ms)
+ GET / 200 in 294ms (next.js: 29ms, application-code: 265ms)
